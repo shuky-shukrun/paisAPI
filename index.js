@@ -24,7 +24,7 @@ const swaggerOptions = {
     swaggerDefinition: {
         info: {
             title: 'Pais API',
-            description: 'API for the israeli lottery game <img src="../lottoRes.png" >',
+            description: 'API for the israeli lottery results' /* + '<br> <img src="../lottoRes.png" width=500 hight=500>'*/,
             contact: {
                 name: 'Elchanan Shuky Shukrun',
                 email: 'elnn.sh@gmail.com'
