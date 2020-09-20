@@ -122,7 +122,7 @@ router.get('/byID/:from/:to', async (req, res) => {
 
 /**
  * @swagger
- * /lotto/byDate/{from}/{to}:
+ * /lotto/byDates/{from}/{to}:
  *  get:
  *    summary: "Get range of lotteries by dates"
  *    description:  Use to request range of lotteries. Set 'from' greater than 'to' for decreasing result
@@ -141,7 +141,7 @@ router.get('/byID/:from/:to', async (req, res) => {
  *      '200':
  *        description: A successful response
  */
-router.get('/byDate/:from/:to', async (req, res) => {
+router.get('/byDates/:from/:to', async (req, res) => {
     try {
         let from = req.params.from;
         from = from.split('-');

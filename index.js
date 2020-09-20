@@ -57,8 +57,8 @@ app.use((req, res, next) => {
 // HANDLE ROUTES
 // HANDLE BASIC REQUESTS
 app.get('/', (req, res) => {
-    const apiDocs = 'https://paisapi.azurewebsites.net/api-docs/';
-    res.status(200).send("Welcome to paisAPI!\nDocumentation available at " + apiDocs);
+    const apiDocs = '<a href=https://paisapi.azurewebsites.net/api-docs/> HERE </a>';
+    res.status(200).send("Welcome to paisAPI! <br>Documentation available " + apiDocs);
 });
 
 app.get('/lottoRes.png', (req,res) => {
