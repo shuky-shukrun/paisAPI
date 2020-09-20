@@ -4,7 +4,7 @@ Unofficial REST API for the Israeli lottery company using Node.js, mongoDB, and 
 For api-docs [click here](https://paisapi.azurewebsites.net/api-docs/)
 
 ## Examples
-| Request | Link |
+| Request (GET) | Link |
 | ------------- | ------------- |
 | Recent lottery | https://paisapi.azurewebsites.net/lotto/recent |
 | Specific lottery | https://paisapi.azurewebsites.net/lotto/3200 |
@@ -17,7 +17,7 @@ For api-docs [click here](https://paisapi.azurewebsites.net/api-docs/)
 ## Result format
 ```JSON
 {
-    "_id": 2013, //מספר הגרלה
+    "_id": 2013, // מספר הגרלה
     "date": "2009-02-28T12:00:00.000Z", // תאריך
     "winNumbers": [8, 8, 14, 24, 28, 34], // המספרים הזוכים
     "strongNumber": 8, // המספר החזק
