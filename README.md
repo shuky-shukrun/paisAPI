@@ -4,20 +4,15 @@ Unofficial REST API for the Israeli lottery company using Node.js, mongoDB, and 
 For api-docs [click here](https://paisapi.azurewebsites.net/api-docs/)
 
 ## Examples
-### Recent lottery
-https://paisapi.azurewebsites.net/lotto/recent
-### Specific lottery
-https://paisapi.azurewebsites.net/lotto/3200
-### Range of lotteries by lotteries number (increasing order)
-https://paisapi.azurewebsites.net/lotto/byID/3200/3210
-### Range of lotteries by lotteries number (decreasing order)
-https://paisapi.azurewebsites.net/lotto/byID/3210/3200
-### Range of lotteries by lotteries number (increasing order)
-https://paisapi.azurewebsites.net/lotto/byDates/2012-06-01/2012-07-01
-### Range of lotteries by lotteries number (decreasing order)
-https://paisapi.azurewebsites.net/lotto/byDates/2012-07-01/2012-06-01
-### All lotteries (USE CAREFULLY, result may be huge)
-https://paisapi.azurewebsites.net/lotto
+| Request | Link |
+| ------------- | ------------- |
+| Recent lottery | https://paisapi.azurewebsites.net/lotto/recent |
+| Specific lottery | https://paisapi.azurewebsites.net/lotto/3200 |
+| Range, by lotteries number (increasing) | https://paisapi.azurewebsites.net/lotto/byID/3200/3210 |
+| Range, by lotteries number (decreasing) | https://paisapi.azurewebsites.net/lotto/byID/3210/3200 |
+| Range, by lotteries date (increasing) | https://paisapi.azurewebsites.net/lotto/byDates/2012-06-01/2012-07-01 |
+| Range, by lotteries date (decreasing) | https://paisapi.azurewebsites.net/lotto/byDates/2012-07-01/2012-06-01 |
+| All lotteries (USE CAREFULLY, result may be huge) | https://paisapi.azurewebsites.net/lotto |
 
 ## Result format
 ```JSON
@@ -99,6 +94,6 @@ https://paisapi.azurewebsites.net/lotto
             "sumPrize": 20
         }
     },
-    "url": "https://www.pais.co.il/lotto/currentlotto.aspx?lotteryId=2013"
+    "url": "https://www.pais.co.il/lotto/currentlotto.aspx?lotteryId=2013" // קישור לאתר מפעל הפיס
 }
 ```
