@@ -1,0 +1,32 @@
+{
+  "name": "paisapi",
+  "version": "1.0.0",
+  "description": "Unofficial REST API for the Israeli lottery results using Node.js, mongoDB, and Azure App Service.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuky-shukrun/paisAPI.git"
+  },
+  "author": "Elchanan Shuky Shukrun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuky-shukrun/paisAPI/issues"
+  },
+  "homepage": "https://github.com/shuky-shukrun/paisAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
