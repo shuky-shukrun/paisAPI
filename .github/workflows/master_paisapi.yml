@@ -25,6 +25,7 @@ jobs:
         run: |
           npm install
           npm run build --if-present
+          npm run test --if-present
 
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
@@ -58,4 +59,4 @@ jobs:
           app-name: 'paisAPI'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_736DEEEDA1F14C28992935D5BA230213 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6B504235AB2F43F3B14A047044C6FA49 }}
