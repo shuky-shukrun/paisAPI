@@ -59,4 +59,4 @@ jobs:
           app-name: 'paisAPI'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6B504235AB2F43F3B14A047044C6FA49 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A29DDF6972C34F07B0E316EB36C0138A }}
