@@ -4,7 +4,7 @@
   "description": "Unofficial REST API for the Israeli lottery results using Node.js, mongoDB, and Azure App Service.",
   "main": "index.js",
   "scripts": {
-    "start": "node lib/index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
